@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Календарь</title>
+
+    <style>
+        .calendar {
+            width: 500px;
+        }
+
+        .month-year {
+            padding: 15px 0px;
+            width: 100%;
+            background: #b8bfff;
+            text-align: center;
+        }
+
+        .month-year h1 {
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-family: monospace;
+        }
+
+        .month-year h2 {
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-family: monospace;
+        }
+
+        .calendar-content {
+            width: 100%;
+        }
+
+        .weekdays {
+            margin: 0;
+            padding: 10px 0;
+            background-color:#ddd;
+        }
+
+        .weekdays li {
+            display: inline-block;
+            width: 13.6%;
+            font-size: 25px;
+            color: #666;
+            text-align: center;
+            font-family: monospace;
+        }
+
+        .days {
+            padding: 10px 0;
+            background: #eee;
+            margin: 0;
+        }
+
+        .days li {
+            list-style-type: none;
+            display: inline-block;
+            width: 13.6%;
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 25px;
+            color: #777;
+            font-family: monospace;
+        }
+
+        .days .past {
+            text-decoration: line-through;
+        }
+        
+        .days .now {
+            background: #712fec;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar">
+        <div class="month-year">
+            <h1>Февраль</h1>
+            <h2>2024</h2>
+        </div>
+        
+        <div class="calendar-content">
+            <ul class="weekdays">
+                <li>ПН</li>
+                <li>ВТ</li>
+                <li>СР</li>
+                <li>ЧТ</li>
+                <li>ПТ</li>
+                <li>СБ</li>
+                <li>ВС</li>
+            </ul>
+                
+            <ul class="days">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li class="past">1</li>
+                <li class="past">2</li>
+                <li class="past">3</li>
+                <li class="past">4</li>
+                <li class="past">5</li>
+                <li class="past">6</li>
+                <li class="past">7</li>
+                <li class="past">8</li>
+                <li class="past">9</li>
+                <li class="past">10</li>
+                <li class="past">11</li>
+                <li class="past">12</li>
+                <li class="past">13</li>
+                <li class="past">14</li>
+                <li class="past">15</li>
+                <li class="past">16</li>
+                <li class="past">17</li>
+                <li class="past">18</li>
+                <li class="past">19</li>
+                <li class="past">20</li>
+                <li class="past">21</li>
+                <li class="past">22</li>
+                <li class="now">23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
